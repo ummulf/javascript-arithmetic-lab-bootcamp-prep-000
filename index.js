@@ -5,13 +5,13 @@ function add5() {
 }
 
 function subtract5() {
-  number --= 5
+  number --= 4
 }
 
 function multiplyby5() {
-  number *= 5
+  number *= 50
 }
 
 function divideby5() {
-  number /= 5
+  number /= 2
 }

@@ -4,25 +4,17 @@ function add5() {
   number += 5
 }
 
-function divideBy3() {
-  number /= 3
+function subtract5(){
+  number --= 5
 }
 
-divideBy3()
+function multiplyby5(){
+  number *= 5 
+}
 
-console.log() // 3.333333333335
+function divideby5(){
+  number /= 5
+}
 
-add5()
 
-console.log() // 8.333333333335
 
-// reset number
-number = 10
-
-add5()
-
-console.log(number) // 15
-
-divideBy3()
-
-console.log(number) // 5

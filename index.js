@@ -10,11 +10,19 @@ function divideBy3() {
 
 divideBy3()
 
-console.log(5) // 3.333333333335
+console.log() // 3.333333333335
 
 add5()
 
-console.log(10) // 8.333333333335
+console.log() // 8.333333333335
 
 // reset number
 number = 10
+
+add5()
+ 
+console.log(number) // 15
+ 
+divideBy3()
+ 
+console.log(number) // 5
